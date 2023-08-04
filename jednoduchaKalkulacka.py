@@ -1,8 +1,21 @@
-
 print("JEDNODUCHÁ KALKULAČKA")
 print("---------------------")
-prvniCislo = float(input("Zadejte první číslo: "))
-druheCislo = float(input("Zadejte druhé číslo: "))
+
+while True:
+        cislo1 = input("Zadejte první číslo: ")
+        try:
+            prvniCislo = float(cislo1)
+            break
+        except ValueError:
+            print("Zadaná hodnota není číslo! Zkus to znovu!")     
+
+while True:
+        cislo2 = input("Zadejte druhé číslo: ")
+        try:
+            druheCislo = float(cislo2)
+            break
+        except ValueError:
+            print("Zadaná hodnota není číslo! Zkus to znovu!")
 
 soucet = prvniCislo + druheCislo
 rozdil = prvniCislo - druheCislo

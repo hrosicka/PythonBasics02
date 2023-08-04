@@ -15,7 +15,7 @@ def main():
             break
         except ValueError:
             print("To není číslo! Zkus to znovu!")     
-    # else all is good, val is >=  0 and an integer
+            
     mujCtverec = Ctverec(a)
     mujKruh = Kruh(a)
     print(mujCtverec.vypis()[0])
