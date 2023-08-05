@@ -1,12 +1,13 @@
 from ctverec import *
 from kruh import *
+from krychle import *
 
 def main():
 
     while True:
-        print("\nVýpočet obsahu a obvodu čtverce a kruhu")
-        print("-------------------------------")
-        number = input("Zadej stranu čtverce (poloměr kruhu) v cm: ")
+        print("\nVýpočet obsahu a obvodu čtverce a kruhu a také povrchu a objemu krychle")
+        print("-------------------------------------------------------------------------")
+        number = input("Zadej stranu čtverce (poloměr kruhu, stranu krychle) v cm: ")
         try:
             a = float(number)
             if a < 0: 
@@ -18,10 +19,13 @@ def main():
             
     mujCtverec = Ctverec(a)
     mujKruh = Kruh(a)
+    mujeKrychle = Krychle(a)
     print(mujCtverec.vypis()[0])
     print(mujCtverec.vypis()[1])
     print(mujKruh.vypis()[0])
     print(mujKruh.vypis()[1])
+    print(mujeKrychle.vypis()[0])
+    print(mujeKrychle.vypis()[1])
 
 
 if __name__ == "__main__":
