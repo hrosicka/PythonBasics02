@@ -12,6 +12,6 @@ class Krychle:
         return obj
 
     def vypis(self):
-        textPovrch = "Krychle o straně {} cm má povrch {} cm2.".format(self.a, self.povrch())
-        textObjem = "Krychle o straně {} cm má objem {} cm3.".format(self.a, self.objem())
+        textPovrch = "Krychle o hraně {} cm má povrch {} cm2.".format(self.a, round(self.povrch(),3))
+        textObjem = "Krychle o hraně {} cm má objem {} cm3.".format(self.a, round(self.objem(),3))
         return(textPovrch, textObjem)

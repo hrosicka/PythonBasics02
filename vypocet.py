@@ -19,13 +19,13 @@ def main():
             
     mujCtverec = Ctverec(a)
     mujKruh = Kruh(a)
-    mujeKrychle = Krychle(a)
+    mojeKrychle = Krychle(a)
     print(mujCtverec.vypis()[0])
     print(mujCtverec.vypis()[1])
     print(mujKruh.vypis()[0])
     print(mujKruh.vypis()[1])
-    print(mujeKrychle.vypis()[0])
-    print(mujeKrychle.vypis()[1])
+    print(mojeKrychle.vypis()[0])
+    print(mojeKrychle.vypis()[1])
 
 
 if __name__ == "__main__":
