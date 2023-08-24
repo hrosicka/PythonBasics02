@@ -1,7 +1,8 @@
+import math
+
 # třída kruh
 # počítá obvod, obsah a vypisuje výsledek
 # výsledek je vypsán v centimetrech, proto musí být vstup také v centimetrech
-import math
 class Kruh:
     
     # konstruktor - vytvoření kruhu
