@@ -18,7 +18,7 @@ class Ctverec:
         return obs
 
     # metoda pro vypsání obsahu a obvodu čtverce - v centimetrech
-    # vrací 2 řetězce
+    # vrací 2 řetězce - tuple formát
     def vypis(self):
         textObvod = "Čtverec o straně {} cm má obvod {} cm.".format(self.a, self.obvod())
         textObsah = "Čtverec o straně {} cm má obsah {} cm2.".format(self.a, self.obsah())

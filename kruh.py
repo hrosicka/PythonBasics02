@@ -20,7 +20,7 @@ class Kruh:
         return obs
 
     # metoda pro vypsání obsahu a obvodu kruhu - v centimetrech
-    # vrací 2 řetězce
+    # vrací 2 řetězce - tuple formát
     def vypis(self):
         textObvod = "Kruh o poloměru {} cm má obvod {} cm.".format(self.r, round(self.obvod(), 3))
         textObsah = "Kruh o poloměru {} cm má obsah {} cm2.".format(self.r, round(self.obsah(), 3))
