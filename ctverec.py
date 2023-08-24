@@ -3,6 +3,7 @@
 # výsledek je vypsán v centimetrech, proto musí být vstup také v centimetrech
 class Ctverec:
     
+    # konstruktor - vytvoření čtverce
     def __init__(self, a):
         self.a = a
 
@@ -16,7 +17,7 @@ class Ctverec:
         obs = pow(self.a, 2)
         return obs
 
-    # metoda pro vypsání obsahu a obvodu čtverce
+    # metoda pro vypsání obsahu a obvodu čtverce - v centimetrech
     # vrací 2 řetězce
     def vypis(self):
         textObvod = "Čtverec o straně {} cm má obvod {} cm.".format(self.a, self.obvod())
