@@ -3,12 +3,12 @@
 # výsledek je vypsán v centimetrech, proto musí být vstup také v centimetrech
 class Ctverec:
     
-    # konstruktor - vytvoření čtverce
     def __init__(self, a):
+        '''Konstruktor čtverce - parametrem je strana a v centimetrech'''
         self.a = a
 
-    # metoda pro výpočet obvodu čtverce
     def obvod(self):
+        '''Metoda pro výpočet obvodu čtverce v centimetrech'''
         obv = 4 * self.a
         return obv
     
@@ -23,3 +23,5 @@ class Ctverec:
         textObvod = "Čtverec o straně {} cm má obvod {} cm.".format(self.a, self.obvod())
         textObsah = "Čtverec o straně {} cm má obsah {} cm2.".format(self.a, self.obsah())
         return(textObvod, textObsah)
+    
+help(Ctverec)
