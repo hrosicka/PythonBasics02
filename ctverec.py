@@ -1,5 +1,6 @@
 # třída čtverec
 # počítá obvod, obsah a vypisuje výsledek
+# výsledek je vypsán v centimetrech, proto musí být vstup také v centimetrech
 class Ctverec:
     
     def __init__(self, a):
