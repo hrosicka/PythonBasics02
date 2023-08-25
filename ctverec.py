@@ -17,7 +17,7 @@ class Ctverec:
         """
         Metoda pro výpočet obvodu čtverce v centimetrech
 
-        Obvod čtverce: o = 4 * a
+        Obvod čtverce: o = 4*a
         """
         obv = 4 * self.a
         return obv
@@ -36,6 +36,8 @@ class Ctverec:
         Metoda pro vypsání obsahu a obvodu čtverce - v centimetrech
 
         Vrací 2 řetězce - tuple formát - v pořadí obvod, obsah
+
+        Zaokrouhleno na 3 desetinná místa
         """
         textObvod = "Čtverec o straně {} cm má obvod {} cm.".format(self.a, self.obvod())
         textObsah = "Čtverec o straně {} cm má obsah {} cm2.".format(self.a, self.obsah())
