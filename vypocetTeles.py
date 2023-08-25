@@ -5,7 +5,7 @@ def main():
 
     while True:
         print("\nVýpočet povrchu a objemu krychle a koule")
-        print("-------------------------------------------------------------------------")
+        print("----------------------------------------")
         
         teleso = input("Zadej, které těleso chceš počítat: [krychle / koule]\n")
         teleso = teleso.lower()

@@ -6,7 +6,7 @@ def main():
 
     while True:
         print("\nVýpočet obsahu a obvodu čtverce a kruhu a také povrchu a objemu krychle")
-        print("-------------------------------------------------------------------------")
+        print("-----------------------------------------------------------------------")
         number = input("Zadej stranu čtverce (poloměr kruhu, stranu krychle) v cm: ")
         try:
             a = float(number)
