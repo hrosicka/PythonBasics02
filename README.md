@@ -11,7 +11,7 @@ Součin:                 10.000 * 5.000 = 50.000\
 Podíl:                  10.000 / 5.000 = 2.000\
 Celočíselné dělení:     10.000 // 5.000 = 2.000\
 Zbytek po dělení:       10.000 // 5.000 = 0.000\
-Umocnění:               10.000 ** 5.000 = 100000.000\
+Umocnění:               10.000 ** 5.000 = 100000.000
 #### Výpočet obsahu a obvodu čtverce a kruhu
 Základní výpočty - použity třídy Ctverec a Kruh\
 Počítá obsah a obvod, provádí výpis (použit tuple)
@@ -20,4 +20,4 @@ Základní výpočty - použity třídy Krychle a Koule\
 Počítá objem a povrch, provádí výpis (použit tuple)
 #### Hra kámen nůžky papír
 Uživatel hraje proti počítači konzolovou hru, dokud se nerozhodne skončit.\
-Počítá se skóre uživatele a počítače
+Počítá se skóre uživatele a počítače.
