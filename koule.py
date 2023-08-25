@@ -28,7 +28,7 @@ class Koule:
         """
         Metoda pro výpočet objemu koule v centimetrech
 
-        Povrch koule: V = 4/3*PI*r^3
+        Objem koule: V = 4/3*PI*r^3
         """
         obj = 4 * math.pi*pow(self.r, 3) / 3
         return obj
