@@ -1,5 +1,5 @@
 # UcimSePython02
-Jednoduché programování v Pythonu - první programy\
+Jednoduché konzolové programování v Pythonu - první programy\
 Objektové programování - použity třídy
 #### Jednoduchá kalkulačka
 Vyzve uživatele k zadání 2 čísel.
@@ -19,3 +19,5 @@ Počítá obsah a obvod, provádí výpis (použit tuple)
 Základní výpočty - použity třídy Krychle a Koule\
 Počítá objem a povrch, provádí výpis (použit tuple)
 #### Hra kámen nůžky papír
+Uživatel hraje proti počítači konzolovou hru, dokud se nerozhodne skončit.\
+Počítá se skóre uživatele a počítače
