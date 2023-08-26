@@ -1,5 +1,5 @@
 # UcimSePython02
-Jednoduché konzolové programování v Pythonu - první programy\
+Jednoduché konzolové programování v Pythonu - první jednoduché programy\
 Objektové programování - použity třídy
 #### Jednoduchá kalkulačka
 Vyzve uživatele k zadání 2 čísel.
