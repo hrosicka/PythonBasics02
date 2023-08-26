@@ -1,4 +1,4 @@
-# UcimSePython02
+# PythonBasics02
 Jednoduché konzolové programování v Pythonu - první jednoduché programy\
 Objektové programování - použity třídy
 #### Jednoduchá kalkulačka
