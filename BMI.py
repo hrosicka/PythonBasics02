@@ -39,9 +39,6 @@ def vypisHlasku(bmi):
     elif bmi >= 40:
         return "Morbidní obezita"
     
-    raise ValueError("BMI musí být číslo.")
-
-
 def main():
 
     bmi = round(indexBMI(52,1.57),2)
